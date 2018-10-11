@@ -1,0 +1,208 @@
+
+@media screen and (min-width: 200px) and (max-width: 520px) {
+
+
+
+/*Les titres*/
+
+.title{
+
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+}
+
+.choose{
+
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+
+}
+
+/*Les images*/
+
+.img{
+
+width: auto;
+height: 50px;
+align-items: center;
+    vertical-align: top;
+    padding: 2px;
+
+
+}
+
+
+      /*Le positionnement des div*/
+
+.wrap{
+
+background-color: #2ab4ad ;
+border-radius: 15px;
+padding-bottom: 5px;
+color:#ffffff ;
+width: 100%
+
+}
+
+
+.big_div {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    font-size: 14px;
+font-weight: bold;
+ vertical-align: top;
+
+}
+
+
+
+.wrapper_haut{
+line-height: normal;
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:middle;
+}
+
+.div_droite{
+
+float: right;
+display: inline-block;
+align-items: center;
+width: 45%;
+
+
+}
+
+
+.div_gauche{
+
+
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 45%;
+
+}
+
+
+.div_mid_gauche{
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 45%;
+
+
+
+
+}
+
+.div_mid_droite{
+float: right;
+display: inline-block;
+align-items: center;
+width: 45%;
+
+
+
+}
+
+
+.wrapper_mid{
+
+
+line-height: normal;
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:top;
+
+
+}
+
+
+        /*Les bulles d'informations*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 0%;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+    /*Les bouttons*/
+
+
+input[type=checkbox] {
+  transform: scale(2) !important;
+
+}
+
+input[type=text], input[type=number], input[type=email]{
+
+border-radius: 15px !important;
+
+
+}
+
+
+
+/*Separateur de div*/
+
+.line-separator{
+
+height:1px;
+
+background:#ffffff;
+align-content: center;
+width: 25%;
+border-bottom:1px solid #ffffff;
+
+}
+
+
+}
